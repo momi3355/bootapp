@@ -10,6 +10,6 @@ public class HomeController {
 	@ResponseBody
 	public String main() {
 		System.out.println("main handler 실행");
-		return "hello spring boot test";
+		return "hello spring boot docker build";
 	}
 }
